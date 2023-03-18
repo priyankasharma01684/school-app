@@ -1,0 +1,64 @@
+import { createAction } from 'redux-actions';
+
+export const CREATE_EXPENSES_FORECAST = 'CREATE_EXPENSES_FORECAST';
+export const createExpensesForecast = createAction(CREATE_EXPENSES_FORECAST);
+
+export const CREATE_EXPENSES_FORECAST_FAILURE = 'CREATE_EXPENSES_FORECAST_FAILURE';
+export const createExpensesForecastFailure = createAction(CREATE_EXPENSES_FORECAST_FAILURE);
+
+export const CREATE_EXPENSES_FORECAST_REQUESTED = 'CREATE_EXPENSES_FORECAST_REQUESTED';
+export const createExpensesForecastRequested = createAction(CREATE_EXPENSES_FORECAST_REQUESTED);
+
+export const CREATE_EXPENSES_FORECAST_SUCCESS = 'CREATE_EXPENSES_FORECAST_SUCCESS';
+export const createExpensesForecastSuccess = createAction(CREATE_EXPENSES_FORECAST_SUCCESS);
+
+export const DELETE_EXPENSES_FORECAST = 'DELETE_EXPENSES_FORECAST';
+export const deleteExpensesForecast = createAction(DELETE_EXPENSES_FORECAST);
+
+export const DELETE_EXPENSES_FORECAST_FAILURE = 'DELETE_EXPENSES_FORECAST_FAILURE';
+export const deleteExpensesForecastFailure = createAction(DELETE_EXPENSES_FORECAST_FAILURE);
+
+export const DELETE_EXPENSES_FORECAST_REQUESTED = 'DELETE_EXPENSES_FORECAST_REQUESTED';
+export const deleteExpensesForecastRequested = createAction(DELETE_EXPENSES_FORECAST_REQUESTED);
+
+export const DELETE_EXPENSES_FORECAST_SUCCESS = 'DELETE_EXPENSES_FORECAST_SUCCESS';
+export const deleteExpensesForecastSuccess = createAction(DELETE_EXPENSES_FORECAST_SUCCESS);
+
+export const EDIT_EXPENSES_FORECAST = 'EDIT_EXPENSES_FORECAST';
+export const editExpensesForecast = createAction(EDIT_EXPENSES_FORECAST);
+
+export const EDIT_EXPENSES_FORECAST_FAILURE = 'EDIT_EXPENSES_FORECAST_FAILURE';
+export const editExpensesForecastFailure = createAction(EDIT_EXPENSES_FORECAST_FAILURE);
+
+export const EDIT_EXPENSES_FORECAST_REQUESTED = 'EDIT_EXPENSES_FORECAST_REQUESTED';
+export const editExpensesForecastRequested = createAction(EDIT_EXPENSES_FORECAST_REQUESTED);
+
+export const EDIT_EXPENSES_FORECAST_SUCCESS = 'EDIT_EXPENSES_FORECAST_SUCCESS';
+export const editExpensesForecastSuccess = createAction(EDIT_EXPENSES_FORECAST_SUCCESS);
+
+export const FETCH_EXPENSES_FORECAST = 'FETCH_EXPENSES_FORECAST';
+export const fetchExpensesForecast = createAction(FETCH_EXPENSES_FORECAST);
+
+export const FETCH_EXPENSES_FORECAST_FAILURE = 'FETCH_EXPENSES_FORECAST_FAILURE';
+export const fetchExpensesForecastFailure = createAction(FETCH_EXPENSES_FORECAST_FAILURE);
+
+export const FETCH_EXPENSES_FORECAST_REQUESTED = 'FETCH_EXPENSES_FORECAST_REQUESTED';
+export const fetchExpensesForecastRequested = createAction(FETCH_EXPENSES_FORECAST_REQUESTED);
+
+export const FETCH_EXPENSES_FORECAST_SUCCESS = 'FETCH_EXPENSES_FORECAST_SUCCESS';
+export const fetchExpensesForecastSuccess = createAction(FETCH_EXPENSES_FORECAST_SUCCESS);
+
+export const FETCH_SINGLE_EXPENSES_FORECAST = 'FETCH_SINGLE_EXPENSES_FORECAST';
+export const fetchSingleExpensesForecast = createAction(FETCH_SINGLE_EXPENSES_FORECAST);
+
+export const FETCH_SINGLE_EXPENSES_FORECAST_FAILURE = 'FETCH_SINGLE_EXPENSES_FORECAST_FAILURE';
+export const fetchSingleExpensesForecastFailure = createAction(FETCH_SINGLE_EXPENSES_FORECAST_FAILURE);
+
+export const FETCH_SINGLE_EXPENSES_FORECAST_REQUESTED = 'FETCH_SINGLE_EXPENSES_FORECAST_REQUESTED';
+export const fetchSingleExpensesForecastRequested = createAction(FETCH_SINGLE_EXPENSES_FORECAST_REQUESTED);
+
+export const FETCH_SINGLE_EXPENSES_FORECAST_SUCCESS = 'FETCH_SINGLE_EXPENSES_FORECAST_SUCCESS';
+export const fetchSingleExpensesForecastSuccess = createAction(FETCH_SINGLE_EXPENSES_FORECAST_SUCCESS);
+
+export const UPDATE_EXPENSES_FORECAST_FORM = 'UPDATE_EXPENSES_FORECAST_FORM';
+export const updateExpensesForecastForm = createAction(UPDATE_EXPENSES_FORECAST_FORM);
